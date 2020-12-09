@@ -21,7 +21,9 @@ Java实验5
 3 在class中利用循环函数和字符串string将长恨歌对齐。
 4 改错并运行。
 ## 核心方法
-###一是学生的基本信息
+```
+一 学生的基本信息
+
 package 实验5;
 
 import java.io.*;
@@ -101,7 +103,9 @@ class Student{
     }
 
 }
-###二是学生处理后的作业信息
+
+二 学生处理后的作业信息
+
 class Homework{
     public static StringBuffer HW(StringBuffer str1){
         StringBuffer str2 = new StringBuffer(str1);
@@ -168,7 +172,7 @@ class Handle{
         return w;
     }
 }
-
+```
  ## 实验结果
 汉皇重色思倾国，御宇多年求不得。
 杨家有女初长成，养在深闺人未识。
